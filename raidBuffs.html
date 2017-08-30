@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>Sqweeks Wow</title>
+    <link rel="stylesheet" type="text/css" href="./raidBuffs.css">    
+    <script
+		src="https://code.jquery.com/jquery-3.1.1.min.js"
+		integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+		crossorigin="anonymous"></script>
+	<script src="./raidBuffs.js"></script>
+</head>
+
+<body>
+	<div class="list-container">
+		<div class="title">Select a Class / Spec</div>
+	    <ul id="raid-select">
+	    </ul>
+    </div>
+    <div class="list-container">
+    	<div class="title">Raid Roles</div>
+    	<ul id="raid-roles">
+    		<li id="tanks">Tanks: 0</li>
+			<li id="melee-dps">Melee DPS: 0</li>
+			<li id="ranged-dps">Ranged DPS: 0</li>
+			<li id="healers">Healers: 0</li>
+    	</ul>
+    	<div class="title">Raid Members</div>
+    	<ul id="raid-team">
+    	</ul>
+    </div>
+    <div class="list-container">
+    	<div class="title">Available Raid Buffs</div>
+	    <ul id="buff-list">
+	    </ul>
+    </div>
+    <div class="list-container">
+    	<div class="title">Available Raid Debuffs</div>
+    	<ul id="debuff-list">
+    	</ul>
+    </div>
+</body>
+</html>

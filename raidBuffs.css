@@ -1,0 +1,73 @@
+.title {
+	font-size: 150%;
+}
+
+ul {
+	list-style: none;
+}
+
+li {
+
+}
+
+.list-container {
+	float: left;
+	width: 20%;
+	margin: 5px;
+	padding: 5px 5px 5px 7px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: #606060;
+}
+
+button {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #606060;
+}
+
+.class-button {
+	margin: 5px 1px 5px 1px;
+	padding: 7px;
+}
+
+#druid {
+	background-color: #FF7D0A;
+}
+
+#hunter {
+	background-color: #ABD473;
+}
+
+#mage {
+	background-color: #69CCF0;
+}
+
+#paladin {
+	background-color: #F58CBA;
+}
+
+#priest {
+	background-color: #FFFFFF;
+}
+
+#rogue {
+	background-color: #FFF569;
+}
+
+#warlock {
+	background-color: #9482C9;
+}
+
+#warrior {
+	background-color: #C79C6E;
+}
+
+#druid:hover, #hunter:hover, #mage:hover, #paladin:hover, #priest:hover, #rogue:hover, #warlock:hover, #warrior:hover {
+	background-color: #cccccc;
+}
+
+.raid-button {
+	margin: 1px 5px 1px 1px;
+	padding: 3px 7px 3px 7px;
+}
